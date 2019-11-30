@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="" />
+    <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ImageHoster.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,6 +47,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -70,7 +98,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/images/create.html" />
         <option value="$PROJECT_DIR$/src/main/java/ImageHoster/ImageHosterApplication.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/users/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ImageHoster/model/UserProfile.java" />
         <option value="$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java" />
@@ -87,7 +114,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/images/upload.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/images/edit.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/tachyons.min.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout.html" />
         <option value="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" />
@@ -97,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/images/image.html" />
         <option value="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" />
       </list>
     </option>
   </component>
@@ -151,6 +179,38 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ImageHoster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ImageHoster" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,6 +225,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="imagere&#9;FILE&#9;file://E:/MVC_parallel/ImageHoster_solution_13/ImageHoster/src/main/java/ImageHoster/repository/ImageRepository.java&#10;imagec&#9;FILE&#9;file://E:/MVC_parallel/ImageHoster_solution_13/ImageHoster/src/main/java/ImageHoster/controller/ImageController.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -236,21 +297,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132961000" />
+    <option name="totallyTimeSpent" value="135063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
+      <window_info id="Persistence" side_tool="true" />
       <window_info id="Image Layers" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.20121029" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50075644" side_tool="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.062193125" />
       <window_info anchor="bottom" id="Java Enterprise" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
@@ -258,7 +320,7 @@
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.19312602" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49924356" weight="0.39934534" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.109656304" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -313,24 +375,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -387,13 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -530,6 +571,23 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
