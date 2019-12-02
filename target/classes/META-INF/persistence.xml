@@ -19,7 +19,7 @@
             <property name="hibernate.temp.use_jdbc_metadata_defaults" value="false"/>
 
             <!-- property added to create-drop schema \-->
-            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+            <!--property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/-->
 
             <property name="hibernate.hbm2ddl.auto" value="update"/> <!-- update -->
             <property name="hibernate.show_sql" value="true"/> <!-- Show SQL in console -->
