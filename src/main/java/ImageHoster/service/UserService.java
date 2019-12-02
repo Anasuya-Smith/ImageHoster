@@ -32,4 +32,14 @@ public class UserService {
         }
     }
 
+    //Regex Pattern validator for password validation
+    public Boolean isPasswordValid(String password) {
+        String pattern = "((?=.*\\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9]).*)";
+        if(password.matches(pattern))
+            return true;
+        else
+            return false;
+
+    }
+
 }
