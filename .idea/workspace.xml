@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/repository/ImageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/repository/ImageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/service/ImageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/ImageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -458,12 +449,12 @@
       <workItem from="1541425509097" duration="2191000" />
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
-      <workItem from="1575221987485" duration="7171000" />
+      <workItem from="1575221987485" duration="7940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159825000" />
+    <option name="totallyTimeSpent" value="160594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
