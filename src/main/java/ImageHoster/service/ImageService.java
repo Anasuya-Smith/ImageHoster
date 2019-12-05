@@ -20,7 +20,7 @@ public class ImageService {
     }
 
 
-    //The method calls the createImage() method in the Repository and passes the image to be persisted in the database
+    //The method calls the uploadImage() method in the Repository and passes the image to be persisted in the database
     public void uploadImage(Image image) {
         imageRepository.uploadImage(image);
     }
@@ -43,7 +43,8 @@ public class ImageService {
         imageRepository.updateImage(updatedImage);
     }
 
-    //The method calls the deleteImage() method in the Repository and passes the Image id of the image to be deleted in the database
+    //The method calls the deleteImage() method in the Repository and passes the Image id of the image to be deleted in
+    // the database
     public void deleteImage(Integer imageId) {
         imageRepository.deleteImage(imageId);
     }

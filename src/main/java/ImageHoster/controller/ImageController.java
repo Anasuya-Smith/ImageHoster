@@ -58,10 +58,11 @@ public class ImageController {
         Image image = imageService.getImageById(imageId);
 
         //Calls the comment Service to get all the comments related to an image & return a list.
-        List <Comment> comments = commentService.getCommentsByImageId(imageId);
+      //  List <Comment> comments = commentService.getCommentsByImageId(imageId);
 
         model.addAttribute("image", image);
-        model.addAttribute("comments", comments); //attribute added
+        model.addAttribute("title", title);
+     //   model.addAttribute("comments", comments); //attribute added
         model.addAttribute("tags", image.getTags());
         return "images/image";
     }
@@ -115,7 +116,7 @@ public class ImageController {
         //Calls the commentService to get all the comments related to an image & return a list.
 
 
-        List <Comment> comments = commentService.getCommentsByImageId(imageId);
+     //   List <Comment> comments = commentService.getCommentsByImageId(imageId);
 
         String tags = convertTagsToString(image.getTags());
         model.addAttribute("image", image);
@@ -128,7 +129,7 @@ public class ImageController {
             return "images/edit";
         } else {
             model.addAttribute("editError", error);
-            model.addAttribute("comments", comments);
+          //  model.addAttribute("comments", comments);
             model.addAttribute("tags", image.getTags());
             return "images/image";
         }
@@ -181,7 +182,7 @@ public class ImageController {
         Image image = imageService.getImage(imageId);
         model.addAttribute("image", image);
         User user = (User) session.getAttribute("loggeduser");
-        List <Comment> comments = commentService.getCommentsByImageId(imageId);
+      //  List <Comment> comments = commentService.getCommentsByImageId(imageId);
 
         if(image.getUser().getId()==user.getId()) {
             imageService.deleteImage(imageId);
@@ -189,7 +190,7 @@ public class ImageController {
         } else {
             model.addAttribute("deleteError", error);
             model.addAttribute("tags", image.getTags());
-            model.addAttribute("comments", comments);
+          //  model.addAttribute("comments", comments);
             return "images/image";
         }
     }

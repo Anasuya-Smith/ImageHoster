@@ -54,7 +54,8 @@ public class ImageRepository {
     public Image getImageById(Integer imageId) {
         EntityManager em = emf.createEntityManager();
         try {
-            //TypedQuery<Image> typedQuery = em.createQuery("SELECT i from Image i where i.title =:title", Image.class).setParameter("title", title);
+            //TypedQuery<Image> typedQuery = em.createQuery("SELECT i from Image i where i.title =:title", Image.class)
+            //.setParameter("title", title);
             TypedQuery<Image> typedQuery = em.createQuery("SELECT i from Image i where i.id =:imageId", Image.class).setParameter("imageId", imageId);
             return typedQuery.getSingleResult();
         } catch (NoResultException nre) {
@@ -94,7 +95,8 @@ public class ImageRepository {
     //Creates an instance of EntityManager
     //Starts a transaction
     //Get the image with corresponding image id from the database
-    //This changes the state of the image model from detached state to persistent state, which is very essential to use the remove() method
+    //This changes the state of the image model from detached state to persistent state, which is very essential to use
+    // the remove() method
     //If you use remove() method on the object which is not in persistent state, an exception is thrown
     //The transaction is committed if it is successful
     //The transaction is rolled back in case of unsuccessful transaction
