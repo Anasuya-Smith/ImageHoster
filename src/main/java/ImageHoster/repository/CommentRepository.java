@@ -24,6 +24,21 @@ public class CommentRepository {
     //Starts a transaction
     //The transaction is committed if it is successful
     //The transaction is rolled back in case of unsuccessful transaction
+    public Comment createComment(Comment newComment) {
+
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction transaction = em.getTransaction();
+
+        try {
+            transaction.begin();
+            em.persist(newComment);
+            transaction.commit();
+        } catch (Exception e) {
+            transaction.rollback();
+        }
+        return newComment;
+    }
+/*
     public Comment createComment(Comment newComment){
 
         EntityManager em = emf.createEntityManager();
@@ -39,19 +54,19 @@ public class CommentRepository {
 
         return newComment;
     }
-
+*/
     //The getCommentsByIntegerId method creates an instance of EntityManager
     //Executes JPQL query to fetch all the Comments from the database related to the imageId
     //Returns the list of all the comments fetched from the database
-    public List<Comment> getCommentsByImageId(Integer imageId){
+ /*   public List<Comment> getCommentsByImageId(Integer imageId){
 
         EntityManager em = emf.createEntityManager();
         try {
-            TypedQuery<Comment> typedQuery = em.createQuery("SELECT i from Comment i where i.images.id = :imageId", Comment.class).setParameter("imageId", imageId);
+            TypedQuery<Comment> typedQuery = em.createQuery("SELECT i from Comment i where i.images_id.id =:imageId", Comment.class).setParameter("imageId", imageId);
             return typedQuery.getResultList();
         } catch (NoResultException nre) {
             return null;
         }
     }
-
+*/
 }
